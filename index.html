@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MINHAS TAREFAS</h1>
+
+        
+        <div class="input-container">
+            <input type="text" id="input-tarefa" placeholder="Digite uma tarefa...">
+            <button id="btn-adicionar">Adicionar</button>
+        </div>
+
+        
+        <div class="painel-controle">
+            <span id="contador-tarefas">Total: 0 tarefa(s)</span>
+            <button id="btn-limpar-tudo" class="btn-perigo">Excluir Todas</button>
+        </div>
+
+        
+        <p id="mensagem-vazia" class="mensagem-vazia">Nenhuma tarefa cadastrada.</p>
+
+        
+        <ul id="lista-tarefas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
